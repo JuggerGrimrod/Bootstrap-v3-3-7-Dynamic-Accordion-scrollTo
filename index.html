@@ -1,0 +1,1198 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Dynamic Bootstrap Accordion scrollTo() Plus 'Lazy-Load' Unveil.js (using Bootstrap 3.3.7, jQuery 3.3.1 and Unveil.js)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1" name="viewport">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.3.3.7.min.css">
+    <link rel="stylesheet" type="text/css" href="css/fa.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+<!-- ############ BEGIN BODY ############ -->
+<div id="wrapper">    
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+                <h1>Dynamic Bootstrap Accordion scrollTo() Plus 'Lazy-Load' Unveil.js<br /><small>(using Bootstrap 3.3.7, jQuery 3.3.1 and Unveil.js)</small></h1>
+
+                <div id="accordion" class="panel-group accordion">
+                    <div class="panel">
+                        <div class="panel-heading">
+                            <a data-toggle="collapse" data-parent="#accordion" href="" class="collapsed trigger-link" onclick="unveilImages();panelScroll();">CATEGORY NAME <span class="serialNumber"></span></a>
+                        </div><!-- /.panel-heading -->
+                        <div id="" class="panel-collapse collapse accordion-drawer">
+                            <div class="panel-body">
+                                
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio1.png" src="images/portfolio1_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio2.png" src="images/portfolio2_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio3.png" src="images/portfolio3_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio4.png" src="images/portfolio4_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio5.png" src="images/portfolio5_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio6.png" src="images/portfolio6_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio7.png" src="images/portfolio7_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio8.png" src="images/portfolio8_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio9.png" src="images/portfolio9_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio10.png" src="images/portfolio10_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio11.png" src="images/portfolio11_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio12.png" src="images/portfolio12_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio13.png" src="images/portfolio13_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio14.png" src="images/portfolio14_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio15.png" src="images/portfolio15_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio16.png" src="images/portfolio16_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio17.png" src="images/portfolio17_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio18.png" src="images/portfolio18_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio19.png" src="images/portfolio19_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio20.png" src="images/portfolio20_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio21.png" src="images/portfolio21_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio22.png" src="images/portfolio22_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio23.png" src="images/portfolio23_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio24.png" src="images/portfolio24_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                
+                            </div><!-- /.panel-body -->
+                        </div><!-- /.accordion-drawer -->
+                    </div><!-- /.panel -->
+                    <div class="panel">
+                        <div class="panel-heading">
+                            <a data-toggle="collapse" data-parent="#accordion" href="" class="collapsed trigger-link" onclick="unveilImages();panelScroll();">CATEGORY NAME <span class="serialNumber"></span></a>
+                        </div><!-- /.panel-heading -->
+                        <div id="" class="panel-collapse collapse accordion-drawer">
+                            <div class="panel-body">
+                                
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio1.png" src="images/portfolio1_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio2.png" src="images/portfolio2_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio3.png" src="images/portfolio3_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio4.png" src="images/portfolio4_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio5.png" src="images/portfolio5_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio6.png" src="images/portfolio6_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio7.png" src="images/portfolio7_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio8.png" src="images/portfolio8_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio9.png" src="images/portfolio9_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio10.png" src="images/portfolio10_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio11.png" src="images/portfolio11_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio12.png" src="images/portfolio12_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio13.png" src="images/portfolio13_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio14.png" src="images/portfolio14_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio15.png" src="images/portfolio15_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio16.png" src="images/portfolio16_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio17.png" src="images/portfolio17_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio18.png" src="images/portfolio18_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio19.png" src="images/portfolio19_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio20.png" src="images/portfolio20_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio21.png" src="images/portfolio21_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio22.png" src="images/portfolio22_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio23.png" src="images/portfolio23_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio24.png" src="images/portfolio24_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                
+                            </div><!-- /.panel-body -->
+                        </div><!-- /.accordion-drawer -->
+                    </div><!-- /.panel -->
+                    <div class="panel">
+                        <div class="panel-heading">
+                            <a data-toggle="collapse" data-parent="#accordion" href="" class="collapsed trigger-link" onclick="unveilImages();panelScroll();">CATEGORY NAME <span class="serialNumber"></span></a>
+                        </div><!-- /.panel-heading -->
+                        <div id="" class="panel-collapse collapse accordion-drawer">
+                            <div class="panel-body">
+                                
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio1.png" src="images/portfolio1_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio2.png" src="images/portfolio2_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio3.png" src="images/portfolio3_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio4.png" src="images/portfolio4_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio5.png" src="images/portfolio5_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio6.png" src="images/portfolio6_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio7.png" src="images/portfolio7_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio8.png" src="images/portfolio8_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio9.png" src="images/portfolio9_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio10.png" src="images/portfolio10_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio11.png" src="images/portfolio11_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio12.png" src="images/portfolio12_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio13.png" src="images/portfolio13_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio14.png" src="images/portfolio14_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio15.png" src="images/portfolio15_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio16.png" src="images/portfolio16_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio17.png" src="images/portfolio17_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio18.png" src="images/portfolio18_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio19.png" src="images/portfolio19_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio20.png" src="images/portfolio20_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio21.png" src="images/portfolio21_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio22.png" src="images/portfolio22_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio23.png" src="images/portfolio23_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio24.png" src="images/portfolio24_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                
+                            </div><!-- /.panel-body -->
+                        </div><!-- /.accordion-drawer -->
+                    </div><!-- /.panel -->
+                    <div class="panel">
+                        <div class="panel-heading">
+                            <a data-toggle="collapse" data-parent="#accordion" href="" class="collapsed trigger-link" onclick="unveilImages();panelScroll();">CATEGORY NAME <span class="serialNumber"></span></a>
+                        </div><!-- /.panel-heading -->
+                        <div id="" class="panel-collapse collapse accordion-drawer">
+                            <div class="panel-body">
+                                
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio1.png" src="images/portfolio1_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio2.png" src="images/portfolio2_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio3.png" src="images/portfolio3_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio4.png" src="images/portfolio4_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio5.png" src="images/portfolio5_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio6.png" src="images/portfolio6_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio7.png" src="images/portfolio7_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio8.png" src="images/portfolio8_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio9.png" src="images/portfolio9_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio10.png" src="images/portfolio10_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio11.png" src="images/portfolio11_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio12.png" src="images/portfolio12_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio13.png" src="images/portfolio13_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio14.png" src="images/portfolio14_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio15.png" src="images/portfolio15_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio16.png" src="images/portfolio16_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio17.png" src="images/portfolio17_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio18.png" src="images/portfolio18_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio19.png" src="images/portfolio19_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio20.png" src="images/portfolio20_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio21.png" src="images/portfolio21_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio22.png" src="images/portfolio22_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio23.png" src="images/portfolio23_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio24.png" src="images/portfolio24_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                
+                            </div><!-- /.panel-body -->
+                        </div><!-- /.accordion-drawer -->
+                    </div><!-- /.panel -->
+                    <div class="panel">
+                        <div class="panel-heading">
+                            <a data-toggle="collapse" data-parent="#accordion" href="" class="collapsed trigger-link" onclick="unveilImages();panelScroll();">CATEGORY NAME <span class="serialNumber"></span></a>
+                        </div><!-- /.panel-heading -->
+                        <div id="" class="panel-collapse collapse accordion-drawer">
+                            <div class="panel-body">
+                                
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio1.png" src="images/portfolio1_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio2.png" src="images/portfolio2_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio3.png" src="images/portfolio3_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio4.png" src="images/portfolio4_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio5.png" src="images/portfolio5_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio6.png" src="images/portfolio6_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio7.png" src="images/portfolio7_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio8.png" src="images/portfolio8_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio9.png" src="images/portfolio9_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio10.png" src="images/portfolio10_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio11.png" src="images/portfolio11_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio12.png" src="images/portfolio12_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio13.png" src="images/portfolio13_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio14.png" src="images/portfolio14_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio15.png" src="images/portfolio15_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio16.png" src="images/portfolio16_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio17.png" src="images/portfolio17_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio18.png" src="images/portfolio18_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio19.png" src="images/portfolio19_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio20.png" src="images/portfolio20_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio21.png" src="images/portfolio21_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio22.png" src="images/portfolio22_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio23.png" src="images/portfolio23_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio24.png" src="images/portfolio24_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                
+                            </div><!-- /.panel-body -->
+                        </div><!-- /.accordion-drawer -->
+                    </div><!-- /.panel -->
+                    <div class="panel">
+                        <div class="panel-heading">
+                            <a data-toggle="collapse" data-parent="#accordion" href="" class="collapsed trigger-link" onclick="unveilImages();panelScroll();">CATEGORY NAME <span class="serialNumber"></span></a>
+                        </div><!-- /.panel-heading -->
+                        <div id="" class="panel-collapse collapse accordion-drawer">
+                            <div class="panel-body">
+                                
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio1.png" src="images/portfolio1_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio2.png" src="images/portfolio2_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio3.png" src="images/portfolio3_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio4.png" src="images/portfolio4_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio5.png" src="images/portfolio5_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio6.png" src="images/portfolio6_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio7.png" src="images/portfolio7_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio8.png" src="images/portfolio8_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio9.png" src="images/portfolio9_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio10.png" src="images/portfolio10_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio11.png" src="images/portfolio11_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio12.png" src="images/portfolio12_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio13.png" src="images/portfolio13_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio14.png" src="images/portfolio14_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio15.png" src="images/portfolio15_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio16.png" src="images/portfolio16_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio17.png" src="images/portfolio17_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio18.png" src="images/portfolio18_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio19.png" src="images/portfolio19_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio20.png" src="images/portfolio20_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio21.png" src="images/portfolio21_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio22.png" src="images/portfolio22_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio23.png" src="images/portfolio23_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio24.png" src="images/portfolio24_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                
+                            </div><!-- /.panel-body -->
+                        </div><!-- /.accordion-drawer -->
+                    </div><!-- /.panel -->
+                    <div class="panel">
+                        <div class="panel-heading">
+                            <a data-toggle="collapse" data-parent="#accordion" href="" class="collapsed trigger-link" onclick="unveilImages();panelScroll();">CATEGORY NAME <span class="serialNumber"></span></a>
+                        </div><!-- /.panel-heading -->
+                        <div id="" class="panel-collapse collapse accordion-drawer">
+                            <div class="panel-body">
+                                
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio1.png" src="images/portfolio1_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio2.png" src="images/portfolio2_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio3.png" src="images/portfolio3_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio4.png" src="images/portfolio4_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio5.png" src="images/portfolio5_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio6.png" src="images/portfolio6_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio7.png" src="images/portfolio7_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio8.png" src="images/portfolio8_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio9.png" src="images/portfolio9_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio10.png" src="images/portfolio10_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio11.png" src="images/portfolio11_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio12.png" src="images/portfolio12_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio13.png" src="images/portfolio13_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio14.png" src="images/portfolio14_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio15.png" src="images/portfolio15_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio16.png" src="images/portfolio16_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio17.png" src="images/portfolio17_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio18.png" src="images/portfolio18_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio19.png" src="images/portfolio19_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio20.png" src="images/portfolio20_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio21.png" src="images/portfolio21_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio22.png" src="images/portfolio22_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio23.png" src="images/portfolio23_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio24.png" src="images/portfolio24_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                
+                            </div><!-- /.panel-body -->
+                        </div><!-- /.accordion-drawer -->
+                    </div><!-- /.panel -->
+                    <div class="panel">
+                        <div class="panel-heading">
+                            <a data-toggle="collapse" data-parent="#accordion" href="" class="collapsed trigger-link" onclick="unveilImages();panelScroll();">CATEGORY NAME <span class="serialNumber"></span></a>
+                        </div><!-- /.panel-heading -->
+                        <div id="" class="panel-collapse collapse accordion-drawer">
+                            <div class="panel-body">
+                                
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio1.png" src="images/portfolio1_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio2.png" src="images/portfolio2_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio3.png" src="images/portfolio3_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio4.png" src="images/portfolio4_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio5.png" src="images/portfolio5_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio6.png" src="images/portfolio6_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio7.png" src="images/portfolio7_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio8.png" src="images/portfolio8_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio9.png" src="images/portfolio9_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio10.png" src="images/portfolio10_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio11.png" src="images/portfolio11_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio12.png" src="images/portfolio12_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio13.png" src="images/portfolio13_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio14.png" src="images/portfolio14_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio15.png" src="images/portfolio15_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio16.png" src="images/portfolio16_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio17.png" src="images/portfolio17_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio18.png" src="images/portfolio18_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio19.png" src="images/portfolio19_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio20.png" src="images/portfolio20_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio21.png" src="images/portfolio21_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio22.png" src="images/portfolio22_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio23.png" src="images/portfolio23_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                <div class="categoryItem col-xs-12 col-sm-6 col-md-3 col-lg-4">                                            
+                                    <a href="#" class="categoryImgLink"><img data-src="images/portfolio24.png" src="images/portfolio24_th.png" alt="image" class="product-image" /></a>
+                                    <a href="#" class="categoryTextLink"><b>PRODUCT NAME&reg;</b> Product Description</a>                                            
+                                </div>
+
+                                
+                            </div><!-- /.panel-body -->
+                        </div><!-- /.accordion-drawer -->
+                    </div><!-- /.panel -->
+                </div><!-- /#accordion.panel-group.accordion -->
+
+                <div class="form">  
+                    <div class="form-group">
+                        <div class="btn-group btn-group-solid">
+                            <button type="button" class="btn default accordionBtn" onclick="appendAccordion();">APPEND AN ACCORDION DRAWER</button>
+                        </div>
+                    </div><!-- /.form-group -->                                                                    
+                </div><!-- /.form -->
+
+                <div class="form">  
+                    <div class="form-group">
+                        <div class="btn-group btn-group-solid">
+                            <h3>Some notes about this page...</h3>
+                        </div>
+                    </div><!-- /.form-group -->                                                                    
+                </div><!-- /.form -->
+
+                <p>All accordion drawers coded on this page have <i>a.trigger-link</i> anchors with empty HREF attributes and <i>div.accordion-drawer</i> divs with empty ID attributes:</p>
+
+                     <pre><b>&lt;a data-toggle="collapse" data-parent="#accordion" href="" class="collapsed trigger-link"&gt;CATEGORY NAME X&lt;/a&gt;</b></pre>
+                     <p>and</p>
+                     <pre><b>&lt;div id="" class="panel-collapse collapse accordion-drawer"&gt;</b></pre>
+
+                <p>All <i>a.trigger-link</i> HREF attribute values and <i>div.accordion-drawer</i> ID attribute values are generated dynamically on document.ready by the <i>serializeDrawer()</i> function.  <i>serializeDrawer()</i> is called-back on document.ready, and again within the <i>appendAccordion()</i> function when the "APPEND AN ACCORDION DRAWER" button is clicked.</p>
+
+            </div><!-- /.col-xs-12.col-sm-12.col-md-12.col-lg-12 -->
+        </div><!-- /.row -->
+    </div><!-- /.container -->
+</div><!-- /#wrapper -->
+<!-- ############ END BODY ############ -->
+
+<!-- ############ BEGIN SCRIPTS ############ -->
+<!-- jQuery/Bootstrap -->
+<script src="js/jquery.3.3.1.min.js"></script>
+<script src="js/bootstrap.3.3.7.min.js"></script>
+
+<!-- Unveil.js for lazy-loading product block images -->
+<script src="js/jquery.unveil.js"></script>
+
+<!-- custom js -->
+<script>    
+    // ACCORDION DYNAMIC SERIALIZATION
+    // set .accordion-drawer object's ID value and companion .trigger-link HREF attribute value on document.ready
+    // to see the dynamic .accordion-drawer/.trigger-link script in action, load this page in a browser
+    // to see dynamic incrementalization after teh page has loaded, click the APPEND EXTRA ACCORDION DRAWERS; you will see an additional CATEGORY X displayed and functioning in the accordion with dynamically generated accordion HREF/ID and .serialNumber() values and without a page reload.
+    function serializeDrawer(){
+        var i=0;
+        $('.trigger-link').each(function(){
+            i++;
+            var newHREF='#'+'drawer'+i;
+            $(this).attr('href',newHREF);
+            $(this).val(i);
+        });
+        var j=0;
+        $('.accordion-drawer').each(function(){
+            j++;
+            var newID='drawer'+j;
+            $(this).attr('id',newID);
+            $(this).val(j);
+        });
+        var k=0;
+        $('.serialNumber').each(function(){
+            k++;
+            var newCOUNTER=+k;
+            $(this).html(newCOUNTER);
+        });
+    }
+
+    // APPEND ACCORDION DRAWERS
+    // append new accordion drawers on button click to demonstrate dynamic ID/HREF value and .serialNumber().html() incremental generation
+    function appendAccordion(){           
+        $('.panel:last-child').clone().appendTo('#accordion');
+        serializeDrawer();
+    }    
+
+    // LAZY-LOADING X PRODUCT IMAGES IMMEDIATELY ON DOCUMENT.READY USING UNVEIL.JS
+    // default lazy-loading via unveil.js callback function 
+    function unveilImages(){
+        $('.product-image').unveil(1000, function(){
+            $(this).on('load',function(){
+                this.style.opacity = 1;
+            });
+        });
+        // unveil the first 3 images by default on a clicked accordion display (on the trigger accordion panel 'open' event)
+        $('.panel-heading', this).on('click', function(){
+            $(this).next('.panel-collapse').find('img.product-image:lt(3)').trigger('unveil');
+        });
+    }
+
+    // ACCORDION SCROLLTO SCRIPT 
+    // This function keeps subsequently opened accordion drawers' (i.e. default or additional accordions opened down-page from any opened-state accordion farther up-page) panels from scrolling out of view through the top of the viewport (i.e. return viewport to top of newly opened accordion after the newly opened accordion's contents are displayed)
+    function panelScroll(){
+        $('.panel-collapse').on('shown.bs.collapse', function(){
+            // define width of the window as variable (for later use in mobile viewports)
+            var winW = $(window).width();
+            // define nearest panel object in the DOM (this is the .panel that is about to be clicked open into display)
+            var $panel = $(this).closest('.panel');
+            // define scroll-offset: adjust height px value to account for content at top of panel (including masthead/title-bar if they exist)
+            var offsetPX = 0; // when set to zero ('0'), the offset will animate the opened accordion .panel div flush to the top of the viewport
+            // logic for changing offset value in mobile display if necessary due to height of page elements in mobile rendering
+            if(winW <= 767){
+                var offsetPX = 0; // when set to zero ('0'), the offset will animate the opened accordion .panel div flush to the top of the viewport
+            }
+            // animate the scroll behavior to height of offset pixel value, duration 1s
+            $('html,body').animate({
+                scrollTop: $panel.offset().top + offsetPX
+            }, 1000);             
+        });      
+    };
+
+    $(document).ready(function(){
+        // callback to run the serializeDrawer() function on document.ready
+        serializeDrawer();        
+    }); 
+</script>
+<!-- ############ END SCRIPTS ############ -->
+
+</body>
+</html>
