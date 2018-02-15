@@ -87,7 +87,7 @@ This demonstration uses a single .html page running **Bootstrap v3.3.7** and the
         serializeDrawer();
     } 
     ```
-  * The **Unveil.js plugin script**:
+  * The **Unveil.js plugin script**  courtesy of [Luis Almeida](http://luis-almeida.github.io/unveil/):
     * **/js/jquery.unveil.js** - Unveil.js plugin script file is called in **/index.html on line 1118**:
     * The *unveilImages()* function defines the default **Unveil.js callback** and accordion drawer triggering behavior in **/index.html on lines 1155 - 1167**:
     ```javascript
