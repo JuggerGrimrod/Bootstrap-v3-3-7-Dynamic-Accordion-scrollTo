@@ -1155,7 +1155,7 @@
     // LAZY-LOADING X PRODUCT IMAGES IMMEDIATELY ON DOCUMENT.READY USING UNVEIL.JS
     // default lazy-loading via unveil.js callback function 
     function unveilImages(){
-        $('.product-image').unveil(1000, function(){
+        $('.product-image').unveil(333, function(){
             $(this).on('load',function(){
                 this.style.opacity = 1;
             });
